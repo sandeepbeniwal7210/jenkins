@@ -1,11 +1,10 @@
-read -p "fibonacci up to: " N
-a=0
-b=1
-echo $a
-while [ $b -lt $N ]
+A=0
+B=1
+echo $A
+while [ $B-lt $NUMBER ]
 do
-	echo $b
-	c=$((a + b))
-	a=$b
-	b=$c
+	echo $B
+	C=$((A + B))
+	A=$B
+	B=$C
 done
