@@ -8,7 +8,7 @@ if [ $OPERATION == "Addition" ]
 then 
 	echo "INFO :: Addition"
 	echo $((FIRST_NUMBER + SECOND_NUMBER))
-elif [ $OPERATION == "Sutraction" ]
+elif [ $OPERATION == "Subtraction" ]
 then
 	echo "INFO :: Subtraction"
 	[ $FIRST_NUMBER -lt $SECOND_NUMBER ] && echo "WARN :: Subtrahend is greater than minuend : Difference is negative"
