@@ -1,5 +1,4 @@
-read -p "Even numbers up to " N
-for((i=0;i<=N;i++))
+for((i=0;i<=NUMBER;i++))
 do
 	if [ $((i%2)) -eq 0 ]
 	then
