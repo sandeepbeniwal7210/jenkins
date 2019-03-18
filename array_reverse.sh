@@ -1,4 +1,4 @@
-NAME=(SANDEEP BENIWAL KUTANI)
+#NAME=(SANDEEP BENIWAL KUTANI)
 REV=()
 for((i=${#NAME[@]}-1;i>=0;i--))
 do
