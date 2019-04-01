@@ -26,6 +26,6 @@ removeDuplicate () {
 			sed -i "{i}d" $SSL_CONG_PATH/$SSL_CONF_FILE
 		done
 }
-romoveDuplicate $LINE_CERT
+removeDuplicate $LINE_CERT
 LINE_KEY=`grep -n 'SSLCertificateKeyFile' $SSL_CONG_PATH/$SSL_CONF_FILE | cut -d: -f1`
 removeDuplicate $LINE_KEY
